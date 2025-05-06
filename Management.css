@@ -1,0 +1,163 @@
+
+.nav-sub{
+    color: white;
+    padding: 10px;
+    background-color:  #3fb6e0;
+    border: none;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.section1-h{
+    color: green;
+}
+.blue{
+    color: #3fb6e0;
+}
+.logo{
+    width: 60px;
+    height: auto;
+}
+.section5{
+    padding: 80px 20px;
+    color: aliceblue;
+}
+.section5-h{
+    color: red;
+}
+.section5-img{
+    border-radius: 5px;
+    width: 300px;
+    height: 300px;
+
+}
+.chart-container {
+    margin: 30px auto;
+    text-align: center;
+    overflow: scroll;
+  }
+  .node {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 10px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  .node:hover {
+    background-color: #0056b3;
+  }
+  .ccc{
+    display: inline-grid;
+  }
+  .line {
+    height: 20px;
+    width: 2px;
+    background-color: #007bff;
+    margin: 0 auto;
+    display: none;
+  }
+  .branch {
+    display: flex;
+    justify-content: center;
+    
+    gap: 20px;
+  }
+  .vertical-branch {
+    display: flex;
+    flex-direction: column;
+    
+    gap: 10px;
+  }
+.top{
+    background-color: red;
+}
+.red{
+    background-color: red;
+}
+
+#footer{
+    background-color: black;
+    color: white;
+    
+}
+.footer-content{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 80px 30px;
+    justify-content: space-around;
+    font-size: 15px;
+}
+.footer-element{
+    
+    padding: 10px 10px;
+}
+.footer-h{
+    padding-bottom: 10px;
+}
+.list-footer{
+    list-style-type: none;
+    padding: 0px;
+
+}
+.bi{
+    margin: 0px auto;
+}
+.my{
+    padding: 20px 0px;
+    line-height: 1.5;
+    padding-right: 5px;
+}
+.mr{
+    margin-right: 20px;
+}
+
+.line-footer{
+    background-color: #fff;
+    width: 30%;
+    height: 3px;
+    
+    margin-bottom: 40px;
+}
+.footer-list-hover{
+    padding: 5px 0px;
+    color: #fff;
+    text-decoration: none;
+}
+.footer-list-hover:hover{
+    color: #a7c526;
+}
+.closed{
+    color: #fff;
+}
+.closed:hover{
+    color: #a7c526;
+}
+.footer-news-letter{
+    background-color: #545454;
+    display: flex;
+    padding: 30px 20px;
+}
+@media screen and (max-width:992px){
+    .footer-content{
+       grid-template-columns: repeat(2,1fr);
+    }
+    .cards-group{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+@media screen and (max-width:576px){
+    .footer-content{
+       grid-template-columns: repeat(1,1fr);
+    }
+    .section5-img{
+        width: 280px;
+        height: auto;
+    }
+    .footer-content{
+        padding: 0px;
+    }
+    .footer-content{
+        grid-template-columns: repeat(1,1fr);
+     }
+}

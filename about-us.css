@@ -1,0 +1,196 @@
+*{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #545454;
+}
+h1,h3,h3{
+    color: black;
+}
+.nav-sub{
+    color: white;
+    padding: 10px;
+    background-color:  #3fb6e0;
+    border: none;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.logo{
+    width: 60px;
+    height: auto;
+}
+.section1{
+    padding: 80px 30px;
+    background-image: url(./about-us/bg-4.jpeg);
+    width: 100%;
+    height: auto;
+    background-color: #54545437;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.section1-header{
+    padding: 20px;
+}
+.section1-h{
+    color: red;
+
+}
+.section-h{
+    font-size: 40px;
+    text-align: center;
+   
+
+}
+.section1-text{
+    font-size: 18px;
+    text-align: left;
+    color: green;
+    padding: 10px 0px;
+
+}
+.section1-img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+
+}
+.section11-img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 30px;
+
+}
+.section1-inner2{
+    margin-bottom: auto;
+}
+
+.section2{
+    padding: 80px 30px;
+    background-image: url(./images/stethoscope-copy-space\ \(1\).jpg);
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    color: #fff;
+    background-color: rgba(24, 76, 1, 0.7);
+ 
+}
+
+
+.sectiion2-inner{
+    margin: auto;
+    z-index: 999;
+    position: relative;
+}
+.section2-each{
+    color: #fff;
+    padding: 30px;
+    border: 2px solid white;
+    border-radius: 15px;
+    margin: 20px auto;
+   
+  
+    transition: 300ms;
+}
+.section2-icon{
+    width: 75px;
+    height: auto;
+    
+    display: flex;
+    
+    padding-bottom: 10px;
+}
+.section2-h,.sction2-text{
+    color: #fff;
+}
+.sction2-text{
+    font-weight: 600;
+}
+.section2-h{
+    font-weight: 900;
+}
+.section3{
+    display: none;
+}
+#footer{
+    background-color: black;
+    color: white;
+    
+}
+.footer-content{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 80px 30px;
+    justify-content: space-around;
+    font-size: 15px;
+}
+.text-none{
+    text-decoration: none;
+}
+.footer-element{
+    
+    padding: 10px 10px;
+}
+.footer-h{
+    padding-bottom: 10px;
+}
+.list-footer{
+    list-style-type: none;
+    padding: 0px;
+
+}
+.my{
+    padding: 20px 0px;
+    line-height: 1.5;
+    padding-right: 5px;
+}
+.mr{
+    margin-right: 20px;
+}
+.footer-list-hover{
+    padding: 5px 0px;
+    color: #fff;
+}
+.line-footer{
+    background-color: #fff;
+    width: 30%;
+    height: 3px;
+    
+    margin-bottom: 40px;
+}
+.footer-list-hover{
+    padding: 5px 0px;
+    color: #fff;
+    text-decoration: none;
+}
+.footer-list-hover:hover{
+    color: #a7c526;
+}
+.closed{
+    color: #fff;
+}
+.closed:hover{
+    color: #a7c526;
+}
+.footer-news-letter{
+    background-color: #545454;
+    display: flex;
+    padding: 30px 20px;
+}
+@media screen and (max-width:992px){
+    .footer-content{
+       grid-template-columns: repeat(2,1fr);
+    }
+}
+@media screen and (max-width:576px){
+    .footer-content{
+       grid-template-columns: repeat(1,1fr);
+    }
+    .footer-content{
+        padding: 0px;
+    }
+    .section2{
+        padding: 0px;
+    }
+    .footer-content{
+        padding: 0px;
+    }
+}
